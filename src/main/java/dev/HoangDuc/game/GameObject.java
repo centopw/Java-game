@@ -1,12 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package dev.HoangDuc.game;
 
+import Main2048.Game.Game;
+import main.Main;
+import graphics.Renderer;
+import graphics.Sprite;
 
-import com.mycompany._game.graphics.Renderer;
-import com.mycompany._game.graphics.Sprite;
 import java.util.Random;
 /**
  *

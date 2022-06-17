@@ -1,6 +1,7 @@
 package main;
 
 
+import Main2048.Game.Game;
 import java.awt.Canvas;
 import java.awt.Dimension;
 import java.awt.Graphics2D;
