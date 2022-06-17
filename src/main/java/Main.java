@@ -8,6 +8,7 @@
  *
  * @author ACER
  */
+import Keyboard2048.Keyboard;
 import java.awt.Canvas;
 import java.awt.Dimension;
 import java.awt.Graphics2D;
@@ -22,6 +23,7 @@ public class Main extends Canvas implements Runnable{
     
     public JFrame frame;
     public Thread thread;
+    public Keyboard key;
     public Game game;
     public boolean running = false;
     
@@ -32,6 +34,8 @@ public class Main extends Canvas implements Runnable{
         setPreferredSize(new Dimension((int) (WIDTH * scale), (int) (HEIGHT *  scale)));
         frame = new JFrame();
         game = new Game();
+        key = new Keyboard();
+        addKeyListener(key);
     }
     
     public void start(){
@@ -80,6 +84,7 @@ public class Main extends Canvas implements Runnable{
     
     public void update(){
         game.update();
+        key.update();
     }
     
     public void render(){
