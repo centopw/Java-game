@@ -1,4 +1,6 @@
 package graphics;
+import com.mycompany._game.Main;
+
 public class Renderer {
     public static int width = Main.WIDTH, height = Main.HEIGHT;
 	public static int[] pixels = new int[width * height];
