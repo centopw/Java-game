@@ -6,7 +6,7 @@
 
 /**
  *
- * @author ACER
+ * @author Trung
  */
 import Keyboard2048.Keyboard;
 import java.awt.Canvas;
