@@ -27,7 +27,7 @@ public class GameObject {
         this.width = sprite.width;
         this.height = sprite.height;
     }
-    private void createSprite(){
+    public void createSprite(){
         if(this.value == 2){
             this.sprite = new Sprite(100, 100, 0xefe5db);
         }else if(this.value == 4) {
