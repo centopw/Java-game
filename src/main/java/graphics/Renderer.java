@@ -1,6 +1,5 @@
 package graphics;
 import main.Main;
-import com.mycompany._game.Main;
 
 public class Renderer {
     public static int width = Main.WIDTH, height = Main.HEIGHT;
