@@ -7,8 +7,27 @@ package Main2048.Game;
 
 /**
  *
- * @author DELL
+ * @author Thien
  */
+import java.awt.Graphics2D;
 public class Game {
+    public Game() {
+        init();
+    }
     
+    public void init() {
+        
+    }
+    
+    public void update() {
+        if(Keyboar)
+    }
+    
+    public void render() {
+        
+    }
+    
+    public void renderText(Graphics2D g) {
+        
+    }
 }
