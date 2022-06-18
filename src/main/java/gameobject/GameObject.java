@@ -1,6 +1,6 @@
-package dev.HoangDuc.game;
+package gameobject;
 
-import Main2048.Game.Game;
+import game.Game;
 import main.Main;
 import graphics.Renderer;
 import graphics.Sprite;

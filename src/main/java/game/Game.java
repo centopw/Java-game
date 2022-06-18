@@ -1,17 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package Main2048.Game;
+package game;
 
 /**
  *
  * @author Thien
  */
 import java.awt.event.KeyEvent;
-import Keyboard2048.Keyboard;
-import dev.HoangDuc.game.GameObject;
+import input.Keyboard;
+import gameobject.GameObject;
 import graphics.Renderer;
 import java.awt.Color;
 import java.awt.Font;
